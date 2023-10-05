@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - long-text-fix
   pull_request:
 jobs:
   test-check:
